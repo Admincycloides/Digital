@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.tangentia.mvvm.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home">
+<!--        <action-->
+<!--            android:id="@+id/action_nav_home_to_ageVerificationFragment"-->
+<!--            app:destination="@id/ageVerificationFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_nav_home_to_brandwiseProductsFragment"-->
+<!--            app:destination="@id/brandwiseProductsFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_nav_home_to_categoryWiseProductsFragment"-->
+<!--            app:destination="@id/categoryWiseProductsFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_nav_home_to_viewAllProductsFragment"-->
+<!--            app:destination="@id/viewAllProductsFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_nav_home_to_viewAllBrandsFragment"-->
+<!--            app:destination="@id/viewAllBrandsFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_nav_home_to_setLocationFragmentOnboarding"-->
+<!--            app:destination="@id/setLocationFragmentOnboarding" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_nav_home_to_signUp"-->
+<!--            app:destination="@id/signUp" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_nav_home_to_signUpOnBoarding"-->
+<!--            app:destination="@id/signUpOnboarding" />-->
+    </fragment>
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_delivery_menu"-->
+<!--        android:name="com.grassdoor.android.ui.deliveryASAP.DeliveryASAP"-->
+<!--        tools:layout="@layout/fragment_delivery_asap" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_scheduled_delivery"-->
+<!--        android:name="com.grassdoor.android.ui.scheduledDelivery.ScheduledDeliveryFragment"-->
+<!--        tools:layout="@layout/fragment_scheduled_delivery" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_login_signup"-->
+<!--        android:name="com.grassdoor.android.ui.loginSignUp.LoginSignupFragment"-->
+<!--        tools:layout="@layout/fragment_login_signup">-->
+<!--        <action-->
+<!--            android:id="@+id/action_nav_login_signup_to_nav_home"-->
+<!--            app:destination="@id/nav_home" />-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_referral"-->
+<!--        android:name="com.grassdoor.android.ui.referralProgram.ReferralFragment"-->
+<!--        tools:layout="@layout/fragment_referrel" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_drive_grassdoor"-->
+<!--        android:name="com.grassdoor.android.ui.driveForGrassdoor.DriveForGrassdoorFragment"-->
+<!--        tools:layout="@layout/fragment_drive_for_grassdoor" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_about_us"-->
+<!--        android:name="com.grassdoor.android.ui.aboutUs.AboutUsFragment"-->
+<!--        tools:layout="@layout/fragment_about_us" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_faq"-->
+<!--        android:name="com.grassdoor.android.ui.faq.FaqFragment"-->
+<!--        tools:layout="@layout/fragment_faq" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_blog"-->
+<!--        android:name="com.grassdoor.android.ui.blog.BlogFragment"-->
+<!--        tools:layout="@layout/fragment_blog" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_settings"-->
+<!--        android:name="com.grassdoor.android.ui.settings.SettingsFragment"-->
+<!--        tools:layout="@layout/fragment_settings" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_contact"-->
+<!--        android:name="com.grassdoor.android.ui.contact.ContactFragment"-->
+<!--        tools:layout="@layout/fragment_contact" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/searchProductFragment"-->
+<!--        android:name="com.grassdoor.android.ui.searchProduct.SearchProductFragment"-->
+<!--        android:label="SearchProductFragment"-->
+<!--        tools:layout="@layout/fragment_search_product" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/cartFragment"-->
+<!--        android:name="com.grassdoor.android.ui.cart.CartFragment"-->
+<!--        android:label="CartFragment"-->
+<!--        tools:layout="@layout/fragment_cart">-->
+<!--        <action-->
+<!--            android:id="@+id/action_cartFragment_to_nav_home"-->
+<!--            app:destination="@id/nav_home" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_cartFragment_to_brandwiseProductsFragment"-->
+<!--            app:destination="@id/brandwiseProductsFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/profileFragment"-->
+<!--        android:name="com.grassdoor.android.ui.profile.ProfileFragment"-->
+<!--        android:label="ProfileFragment"-->
+<!--        tools:layout="@layout/fragment_profile">-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_myOrdersFragment"-->
+<!--            app:destination="@id/myOrdersFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_nav_login_signup"-->
+<!--            app:destination="@id/nav_login_signup" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_nav_home"-->
+<!--            app:destination="@id/nav_home" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_uploadMedicalId"-->
+<!--            app:destination="@id/uploadMedicalId" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_uploadPhotoId"-->
+<!--            app:destination="@id/uploadPhotoId" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_nav_referral"-->
+<!--            app:destination="@id/nav_referral" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_walletFragment"-->
+<!--            app:destination="@id/walletFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_giftCardFragment"-->
+<!--            app:destination="@id/giftCardFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_faqFragment"-->
+<!--            app:destination="@id/nav_faq" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_termsConditionsFragment"-->
+<!--            app:destination="@id/termsUse" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_doNotSellInfoFragment"-->
+<!--            app:destination="@id/doNotSellInformation" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_notificationSettings"-->
+<!--            app:destination="@id/notificationSettingsFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/orderConfirmationFragment"-->
+<!--        android:name="com.grassdoor.android.ui.orderConfirmation.OrderConfirmationFragment"-->
+<!--        android:label="OrderConfirmationFragment"-->
+<!--        tools:layout="@layout/fragment_order_confirmation" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/myOrdersFragment"-->
+<!--        android:name="com.grassdoor.android.ui.myOrders.MyOrdersFragment"-->
+<!--        android:label="My Orders"-->
+<!--        tools:layout="@layout/fragment_my_orders">-->
+<!--        <action-->
+<!--            android:id="@+id/action_myOrdersFragment_to_orderConfirmationFragment"-->
+<!--            app:destination="@id/orderConfirmationFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/customerSignatureFragment"-->
+<!--        android:name="com.grassdoor.android.ui.customerSignature.CustomerSignatureFragment"-->
+<!--        android:label="CustomerSignatureFragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/uploadMedicalId"-->
+<!--        android:name="com.grassdoor.android.ui.profile.UploadMedicalIdFragment"-->
+<!--        android:label="UploadMedicalIdFragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/uploadPhotoId"-->
+<!--        android:name="com.grassdoor.android.ui.profile.UploadPhotoIdFragment"-->
+<!--        android:label="UploadPhotoIdFragment" />-->
+<!--    &lt;!&ndash;    <dialog&ndash;&gt;-->
+<!--    &lt;!&ndash;        android:id="@+id/ageVerificationFragment"&ndash;&gt;-->
+<!--    &lt;!&ndash;        android:name="com.grassdoor.android.ui.ageVerification.AgeVerificationFragment"&ndash;&gt;-->
+<!--    &lt;!&ndash;        android:label="AgeVerificationFragment" >&ndash;&gt;-->
+<!--    &lt;!&ndash;        <action&ndash;&gt;-->
+<!--    &lt;!&ndash;            android:id="@+id/action_ageVerificationFragment_to_setLocationFragmentOnboarding"&ndash;&gt;-->
+<!--    &lt;!&ndash;            app:destination="@id/setLocationFragmentOnboarding" />&ndash;&gt;-->
+<!--    &lt;!&ndash;    </dialog>&ndash;&gt;-->
+<!--    <fragment-->
+<!--        android:id="@+id/ageVerificationFragment"-->
+<!--        android:name="com.grassdoor.android.ui.ageVerification.AgeVerificationFragment"-->
+<!--        android:label="AgeVerificationFragment">-->
+<!--        <action-->
+<!--            android:id="@+id/action_ageVerificationFragment_to_setLocationFragmentOnboarding"-->
+<!--            app:destination="@id/setLocationFragmentOnboarding" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/brandwiseProductsFragment"-->
+<!--        android:name="com.grassdoor.android.ui.brandWiseProducts.BrandWiseProductsFragment"-->
+<!--        android:label="BrandwiseProductsFragment">-->
+<!--        <action-->
+<!--            android:id="@+id/action_brandWiseFragment_to_categoryWiseFragment"-->
+<!--            app:destination="@id/categoryWiseProductsFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/profilePictureFragment"-->
+<!--        android:name="com.grassdoor.android.ui.profilePicture.ProfilePictureFragment"-->
+<!--        android:label="ProfilePictureFragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/categoryWiseProductsFragment"-->
+<!--        android:name="com.grassdoor.android.ui.categoryWiseProducts.CategoryWiseProductsFragment"-->
+<!--        android:label="CategoryWiseProductsFragment">-->
+<!--        <action-->
+<!--            android:id="@+id/action_categoryWiseProductsFragment_to_brandwiseProductsFragment"-->
+<!--            app:destination="@id/brandwiseProductsFragment" />-->
+<!--    </fragment>-->
+<!--    <dialog-->
+<!--        android:id="@+id/updateAppFragment"-->
+<!--        android:name="com.grassdoor.android.ui.updateApp.UpdateAppFragment"-->
+<!--        android:label="UpdateAppFragment"-->
+<!--        tools:layout="@layout/fragment_update_app" />-->
+<!--    <dialog-->
+<!--        android:id="@+id/noInternetFragment"-->
+<!--        android:name="com.grassdoor.android.ui.noInternet.NoInternetFragment"-->
+<!--        android:label="NoInternetFragment"-->
+<!--        tools:layout="@layout/fragment_no_internet" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/viewAllProductsFragment"-->
+<!--        android:name="com.grassdoor.android.ui.viewAllProducts.ViewAllProductsFragment"-->
+<!--        android:label="ProfilePictureFragment">-->
+<!--        <action-->
+<!--            android:id="@+id/action_viewAllProductsFragment_to_brandwiseProductsFragment"-->
+<!--            app:destination="@id/brandwiseProductsFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/setLocationFragment"-->
+<!--        android:name="com.grassdoor.android.ui.setlocation.SetLocationFragment"-->
+<!--        android:label="SetLocationFragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/viewAllBrandsFragment"-->
+<!--        android:name="com.grassdoor.android.ui.viewAllBrands.ViewAllBrandsFragment"-->
+<!--        android:label="ViewBrandsFragment" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/termsUse"-->
+<!--        android:name="com.grassdoor.android.ui.termsUse.TermsUseFragment"-->
+<!--        tools:layout="@layout/fragment_terms_of_use" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/privacyPolicy"-->
+<!--        android:name="com.grassdoor.android.ui.privacyPolicy.PrivacyPolicyFragment"-->
+<!--        tools:layout="@layout/fragment_privacy_policy" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/doNotSellInformation"-->
+<!--        android:name="com.grassdoor.android.ui.doNotSellInfo.DoNotSellInfoFragment"-->
+<!--        tools:layout="@layout/fragment_do_not_sell_info" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/aboutApp"-->
+<!--        android:name="com.grassdoor.android.ui.aboutApp.AboutAppFragment"-->
+<!--        tools:layout="@layout/fragment_about_app" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/signUp"-->
+<!--        android:name="com.grassdoor.android.ui.signUp.SignUpFragment"-->
+<!--        tools:layout="@layout/fragment_signup">-->
+<!--        <action-->
+<!--            android:id="@+id/action_signUp_to_nav_home"-->
+<!--            app:destination="@id/nav_home" />-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/announcementBarFragment"-->
+<!--        android:name="com.grassdoor.android.ui.announcementBar.AnnouncementBarFragment"-->
+<!--        android:label="AnnouncementBarFragment" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/chosenFiltersFragment"-->
+<!--        android:name="com.grassdoor.android.ui.chosenFilters.ChosenFiltersFragment"-->
+<!--        android:label="ChosenFiltersFragment" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/checkoutFragment"-->
+<!--        android:name="com.grassdoor.android.ui.cart.CheckoutFragment"-->
+<!--        android:label="CheckoutFragment">-->
+<!--        <action-->
+<!--            android:id="@+id/action_checkoutFragment_to_brandwiseProductsFragment"-->
+<!--            app:destination="@id/brandwiseProductsFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_checkoutFragment_to_cartFragment"-->
+<!--            app:destination="@id/cartFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_checkoutFragment_to_signUp"-->
+<!--            app:destination="@id/signUp" />-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/setLocationFragmentOnboarding"-->
+<!--        android:name="com.grassdoor.android.ui.setlocation.OnBoardingSetLocationFragment"-->
+<!--        android:label="SetLocationOnboardingFragment">-->
+<!--        <action-->
+<!--            android:id="@+id/action_setLocationFragmentOnboarding_to_signUpOnboarding"-->
+<!--            app:destination="@id/signUpOnboarding" />-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/signUpOnboarding"-->
+<!--        android:name="com.grassdoor.android.ui.signUp.SignUpOnboardingFragment"-->
+<!--        android:label="SignUpOnboardingFragment">-->
+<!--        <action-->
+<!--            android:id="@+id/action_signUpOnBoarding_to_nav_home"-->
+<!--            app:destination="@id/nav_home" />-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/walletFragment"-->
+<!--        android:name="com.grassdoor.android.ui.wallet.WalletFragment"-->
+<!--        android:label="Wallet">-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/giftCardFragment"-->
+<!--        android:name="com.grassdoor.android.ui.giftCards.GiftCardFragment"-->
+<!--        android:label="Gift Card">-->
+<!--        <action-->
+<!--            android:id="@+id/action_giftCardFragment_to_giftCardCheckoutFragment"-->
+<!--            app:destination="@id/giftCardCheckoutFragment" />-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/giftCardCheckoutFragment"-->
+<!--        android:name="com.grassdoor.android.ui.giftCards.GiftCardCheckoutFragment"-->
+<!--        android:label="Checkout">-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/notificationSettingsFragment"-->
+<!--        android:name="com.grassdoor.android.ui.notifications.NotificationSettingsFragment"-->
+<!--        android:label="Notification Settings">-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/notificationsFragment"-->
+<!--        android:name="com.grassdoor.android.ui.notifications.NotificationsFragment"-->
+<!--        android:label="Notifications">-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/rewardsFragment"-->
+<!--        android:name="com.grassdoor.android.ui.rewards.RewardsFragment"-->
+<!--        android:label="Rewards">-->
+<!--        <action-->
+<!--            android:id="@+id/action_rewardsFragment_to_friendsFamilyFragment"-->
+<!--            app:destination="@id/friendsFamilyFragment" />-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/friendsFamilyFragment"-->
+<!--        android:name="com.grassdoor.android.ui.rewards.FnFRewardsFragment"-->
+<!--        android:label="Friends and Family">-->
+<!--    </fragment>-->
+
+</navigation>
