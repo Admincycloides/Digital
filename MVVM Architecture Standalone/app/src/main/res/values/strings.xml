@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVVMArchitecture</string>
+    <string name="my_text">Mvvm architecture text</string>
+    
+    <!-- navigation drawer items -->
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="products">Products</string>
+</resources>
